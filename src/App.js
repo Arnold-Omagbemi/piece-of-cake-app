@@ -15,7 +15,7 @@ function App() {
       <Hero />
       <Products heading='Choose your favorite' data={productData} />
       <Feature />
-      <Products heading='Choose your favorite' data={productDataTwo} />
+      <Products heading='Special Offers' data={productDataTwo} />
       <Footer />
       </Router>
   );
