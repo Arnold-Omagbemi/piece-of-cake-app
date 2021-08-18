@@ -47,7 +47,7 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-    top: 0;
+    top: -2%;
 }
 
 `;
