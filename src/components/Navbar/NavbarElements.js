@@ -20,7 +20,6 @@ export const NavLink = styled(Link)`
  cursor: pointer;
 
  @media screen and (max-width: 600px) {
-    top: 4px;
     font-size: 1.5rem;
 }
 
@@ -46,9 +45,14 @@ p {
    transform: translate(-175%, 100%);
    font-weight: bold;
 }
-`
+
+@media screen and (max-width: 600px) {
+    top: -5%;
+}
+
+`;
 
 export const Bars = styled(FaBirthdayCake)`
 font-size: 2rem;
 transform: translate(-50%, -15%);
-`
+`;
