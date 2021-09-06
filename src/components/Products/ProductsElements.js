@@ -29,13 +29,13 @@ export const ProductImg = styled.img`
 `
 
 export const ProductsHeading = styled.h1`
- font-size: clamp(2rem, 2.5w, 3rem);
+ font-size: clamp(1.5rem, 2.5w, 2.5rem);
  text-align: center;
  margin-bottom: 5rem;
 `
 
 export const ProductTitle = styled.h2`
- font-weight: 400;
+ font-weight: 300;
  font-size: 1.5rem;
 `
 
@@ -54,7 +54,7 @@ export const ProductDesc = styled.p`
 
 export const ProductPrice = styled.p`
  margin-bottom: 1rem;
- font-size: 2rem;
+ font-size: 1.5rem;
 `
 
 export const ProductButton = styled.button`
